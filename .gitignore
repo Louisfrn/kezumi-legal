@@ -1,0 +1,8 @@
+_site/
+.cache/
+node_modules/
+.env*
+*.p8
+*.p12
+*.mobileprovision
+credentials/

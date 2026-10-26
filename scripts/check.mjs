@@ -23,7 +23,8 @@ async function inspect(folder) {
     );
     assert.match(html, /name="viewport"/);
     assert.match(html, /href="#main"/);
-    assert.match(html, /21 rue Robespierre/);
+    assert.ok(html.includes(site.publisher.name));
+    assert.doesNotMatch(html, /Louis Fournier|Robespierre|94200|Ivry-sur-Seine|undefined/);
     assert.doesNotMatch(
       html,
       /TODO|placeholder|à renseigner/i,
@@ -84,5 +85,5 @@ for (const word of ["3,99", "19,99", "Réglages", "reportaproblem.apple.com"])
   assert.ok(terms.includes(word), word);
 assert.match(site.publisher.email, /^[^@\s]+@[^@\s]+\.[^@\s]+$/);
 console.log(
-  `Verified ${documents} HTML documents: local links, languages, headings, current address, key disclosures and no third-party scripts.`,
+  `Verified ${documents} HTML documents: local links, languages, headings, publisher privacy, key disclosures and no third-party scripts.`,
 );

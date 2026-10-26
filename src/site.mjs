@@ -1,10 +1,9 @@
 export const site = {
   url: "https://louisfrn.github.io/kezumi-legal/",
-  updated: "2026-10-25",
+  updated: "2026-10-26",
   publisher: {
-    name: "Louis Fournier",
+    name: "M. Fournier",
     email: "fournier.louis03@gmail.com",
-    address: "21 rue Robespierre, 94200 Ivry-sur-Seine, France",
   },
 };
 

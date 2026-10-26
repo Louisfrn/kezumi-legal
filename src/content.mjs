@@ -1,7 +1,7 @@
 import { links, site } from "./site.mjs";
 
 const contact = `<a href="mailto:${site.publisher.email}">${site.publisher.email}</a>`;
-const publisher = `<strong>${site.publisher.name}</strong><br>${site.publisher.address}<br>${contact}`;
+const publisher = `<strong>${site.publisher.name}</strong><br>${contact}`;
 const link = (url, label) => `<a href="${url}">${label}</a>`;
 const section = (id, title, html) => ({ id, title, html });
 
@@ -28,7 +28,7 @@ export const content = {
         section(
           "responsable",
           "1. Qui est responsable des données ?",
-          `<p>L’éditeur de Kezumi et responsable du traitement décrit dans cette politique est :</p><address>${publisher}</address><p>Cette politique couvre l’app iOS Kezumi, sa version de développement Kezumi DEV et ces pages d’information. Les environnements DEV et PROD sont séparés. Dernière mise à jour : 25 octobre 2026.</p>`,
+          `<p>L’éditeur de Kezumi et responsable du traitement décrit dans cette politique est :</p><address>${publisher}</address><p>Cette politique couvre l’app iOS Kezumi, sa version de développement Kezumi DEV et ces pages d’information. Les environnements DEV et PROD sont séparés. Dernière mise à jour : 26 octobre 2026.</p>`,
         ),
         section(
           "donnees",
@@ -84,7 +84,7 @@ export const content = {
         section(
           "editeur",
           "1. Éditeur et portée",
-          `<address>${publisher}</address><p>Ces conditions décrivent l’utilisation de Kezumi sur iPhone, y compris sa version de développement. Elles complètent le ${link(links.appleEula, "contrat de licence standard Apple")} et les ${link(links.appleTerms, "conditions des services Apple")} applicables aux achats App Store, sans remplacer les droits impératifs du consommateur. Dernière mise à jour : 25 octobre 2026.</p>`,
+          `<address>${publisher}</address><p>Ces conditions décrivent l’utilisation de Kezumi sur iPhone, y compris sa version de développement. Elles complètent le ${link(links.appleEula, "contrat de licence standard Apple")} et les ${link(links.appleTerms, "conditions des services Apple")} applicables aux achats App Store, sans remplacer les droits impératifs du consommateur. Dernière mise à jour : 26 octobre 2026.</p>`,
         ),
         section(
           "service",
@@ -177,7 +177,7 @@ export const content = {
         section(
           "controller",
           "1. Who is responsible?",
-          `<p>The publisher of Kezumi and controller of the processing described here is:</p><address>${publisher}</address><p>This policy covers the Kezumi iOS app, its Kezumi DEV development variant and these information pages. DEV and PROD environments are separate. Last updated: October 25, 2026.</p>`,
+          `<p>The publisher of Kezumi and controller of the processing described here is:</p><address>${publisher}</address><p>This policy covers the Kezumi iOS app, its Kezumi DEV development variant and these information pages. DEV and PROD environments are separate. Last updated: October 26, 2026.</p>`,
         ),
         section(
           "data",
@@ -233,7 +233,7 @@ export const content = {
         section(
           "publisher",
           "1. Publisher and scope",
-          `<address>${publisher}</address><p>These terms describe using Kezumi on iPhone, including its development variant. They supplement ${link(links.appleEula, "Apple's standard end-user license agreement")} and ${link(links.appleTerms, "Apple's service terms")} for App Store purchases, without overriding mandatory consumer rights. Last updated: October 25, 2026.</p>`,
+          `<address>${publisher}</address><p>These terms describe using Kezumi on iPhone, including its development variant. They supplement ${link(links.appleEula, "Apple's standard end-user license agreement")} and ${link(links.appleTerms, "Apple's service terms")} for App Store purchases, without overriding mandatory consumer rights. Last updated: October 26, 2026.</p>`,
         ),
         section(
           "service",

@@ -17,7 +17,7 @@ const labels = {
     support: "Assistance",
     home: "Accueil",
     toc: "Dans cette page",
-    updated: "Mis à jour le 25 octobre 2026",
+    updated: "Mis à jour le 26 octobre 2026",
     skip: "Aller au contenu",
     lang: "Choose English",
     note: "À retenir",
@@ -30,7 +30,7 @@ const labels = {
     support: "Support",
     home: "Home",
     toc: "On this page",
-    updated: "Updated October 25, 2026",
+    updated: "Updated October 26, 2026",
     skip: "Skip to content",
     lang: "Choisir le français",
     note: "At a glance",
@@ -91,7 +91,7 @@ function render(language, page) {
         <img class="hero-kezu" src="${root}assets/reading.webp" width="192" height="192" alt="">
       </section>
       <div class="cards">${["privacy", "terms", "support"].map((item, index) => `<a class="card card-${index}" href="${linkTo(item)}"><span class="card-number" aria-hidden="true">0${index + 1}</span><h2>${content[language][item].title}</h2><p>${escape(document[item])}</p><span class="card-arrow" aria-hidden="true">↗</span></a>`).join("")}</div>
-      <section class="publisher"><h2>${language === "fr" ? "L’éditeur de Kezumi" : "Kezumi’s publisher"}</h2><address><strong>${escape(site.publisher.name)}</strong><br>${escape(site.publisher.address)}<br><a href="mailto:${escape(site.publisher.email)}">${escape(site.publisher.email)}</a></address></section>`
+      <section class="publisher"><h2>${language === "fr" ? "L’éditeur de Kezumi" : "Kezumi’s publisher"}</h2><address><strong>${escape(site.publisher.name)}</strong><br><a href="mailto:${escape(site.publisher.email)}">${escape(site.publisher.email)}</a></address></section>`
           : `
       <header class="document-header"><p class="eyebrow">Kezumi · ${language === "fr" ? "Informations légales" : "Legal information"}</p><h1>${escape(document.title)}</h1><p class="lead">${escape(document.intro)}</p><p class="updated"><time datetime="${site.updated}">${copy.updated}</time></p></header>
       <aside class="summary"><strong>${copy.note}</strong><p>${escape(document.summary)}</p></aside>

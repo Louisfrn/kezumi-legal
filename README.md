@@ -24,7 +24,7 @@ La branche `main` publie via `.github/workflows/pages.yml` ; les PR exécutent l
 
 ## Périmètre des textes
 
-Rédigés d’après l’implémentation iOS inspectée le 25 octobre 2026 : session invitée/Apple Supabase, journal de progression synchronisé, cache SQLite, état Screen Time local, RevenueCat et paiements Apple. Les coordonnées publiques ont été fournies par Louis ; seule l’adresse corrigée d’Ivry-sur-Seine figure dans les fichiers. Les textes ne déclarent ni société, numéro d’immatriculation, médiateur désigné, automatisation d’effacement RevenueCat ni délai technique de sauvegarde non vérifié.
+Rédigés d’après l’implémentation iOS inspectée le 25 octobre 2026 : session invitée/Apple Supabase, journal de progression synchronisé, cache SQLite, état Screen Time local, RevenueCat et paiements Apple. Les pages publiques affichent M. Fournier et son e-mail de contact, sans adresse postale personnelle. Les textes ne déclarent ni société, numéro d’immatriculation, médiateur désigné, automatisation d’effacement RevenueCat ni délai technique de sauvegarde non vérifié.
 
 Avant distribution commerciale : vérifier le statut professionnel et les éventuelles mentions d’immatriculation / médiation applicables, les durées opérationnelles des journaux/sauvegardes et le processus manuel de suppression RevenueCat. Cette publication n’est pas une validation juridique ni une recette d’achat sur iPhone. Le contrat de licence standard Apple reste référencé ; ces pages ne configurent pas une EULA personnalisée dans App Store Connect.
 
